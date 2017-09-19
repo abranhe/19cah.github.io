@@ -1,0 +1,148 @@
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1169px) {
+.about-self p {
+  margin-bottom: 10px;
+}
+.download-cv a {
+  margin: 10px 0;
+}
+.icons-bottom ul li a {
+  height: 36px;
+  line-height: 33px;
+  margin: 0 1px;
+  width: 36px;
+}
+
+}
+
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+.self-text ul li {
+  margin-bottom: 5px;
+}
+.download-cv a {
+  margin: 10px 0;
+}
+.about-self p {
+  margin-bottom: 10px;
+}  
+.add-content h2 {
+  font-size: 32px;
+}  
+.fun_text span {
+  font-size: 35px;
+}  
+.contact-form {
+  margin-top: 30px;
+}
+  
+  
+}
+
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+.container {width:300px}
+header h1 {
+  font-size: 35px;
+}
+header .cd-headline b {
+  font-size: 17px;
+}
+.btn-2 {
+  margin-left: 10px;
+}
+.custom-btn {
+  width: 110px;
+}
+.main-menu ul.navbar-nav li {
+  display: block;
+}
+.main-menu ul.navbar-nav li a {
+  padding: 8px 15px;
+}
+.stick .main-menu ul.nav > li > a {
+  color: #333;
+  height: 40px;
+  line-height: 20px;
+}
+.header-area {
+  background: rgba(0, 0, 0, 0.90) none repeat scroll 0 0;
+}
+.about-details,.self-img,.skills-idea ul li,.edu-result  {
+  margin-bottom: 30px;
+}
+.add-content {
+  margin-bottom: 50px;
+}
+.add-content h2 {
+  font-size: 23px;
+}
+.add-btn {
+  font-size: 24px;
+  padding: 10px 10px;
+  width: 170px !important;
+}
+.skills-idea {
+  margin: 30px 0px;
+}
+.awesome-portfolio-menu ul li {
+  margin: 6px 4px;
+  padding: 8px 10px;
+}
+.single-awesome-portfolio {
+  float: none;
+  width: 100%;
+}
+.item-indicator.owl-carousel.owl-theme .owl-controls .owl-nav div.owl-prev {
+  right: 15%;
+}
+.map-area {
+  float: none;
+  width: 100%;
+}
+.contact-info {
+  float: none;
+  padding: 10px;
+  width: 100%;
+}
+.contact-form {
+  margin-top: 30px;
+}
+.fun_text {
+  margin-bottom: 90px;
+}
+    
+    
+    
+ 
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+  
+header .cd-headline b {
+  font-size: 25px;
+}
+.custom-btn {
+  width: 140px;
+}
+.add-content h2 {
+  font-size: 35px;
+  text-align: center;
+}
+.item-indicator.owl-carousel.owl-theme .owl-controls .owl-nav div.owl-prev {
+  right: 10%;
+}
+.fun_text {
+  margin-bottom: 90px;
+}
+  
+  
+  
+ 
+}
+ 
