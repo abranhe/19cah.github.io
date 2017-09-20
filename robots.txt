@@ -1,1 +1,5 @@
- Website for Abraham Github Associate or (abraham.ga)
+User-agent: Google
+Disallow:
+
+User-agent: *
+Disallow: /
