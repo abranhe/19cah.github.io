@@ -3,7 +3,7 @@
 	<h2>
 	<a href="https://abranhe.com">www.abranhe.com</a>
 	</h2>
-  <br>
+	<p>my 💩 personal website</p>
   <br>
   <a href="https://travis-ci.org/abranhe/openup"><img src="https://img.shields.io/travis/abranhe/openup.svg?logo=travis" /></a>
   <a href="https://github.com/abranhe/openup/blob/master/LICENSE"><img src="https://img.shields.io/github/license/abranhe/openup.svg" /></a>
