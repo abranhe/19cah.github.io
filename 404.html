@@ -1,6 +1,82 @@
+<!DOCTYPE html>
 <html>
 <head>
+<meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
   <title>404</title>
-  <meta http-equiv="refresh" content="0; url=https://projects.abranhe.com/404">
+  <meta name="description" content="Open-sourcerer and maker, building the web">
+  <meta name="keywords" content="abraham,carlos,maker,developer,programmer,opensourcerer,freelancer,abranhe">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="Abranhe's site" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://abranhe.com/" />
+  <meta property="og:image" content="https://cdn.abranhe.com/abraham/@abranhe.png" />
+
+  <meta property="og:description" content="Open-sourcerer and maker, building the web" />
+  <meta property="og:site_name" content="Abranhe" />
+  <meta property="og:locale" content="en_US" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@abranhe">
+  <meta name="twitter:title" content="Abranhe">
+  <meta name="twitter:description" content="Open Source Enthusiast and Maker, building the web">
+  <meta name="twitter:image" content="https://cdn.abranhe.com/abraham/@abranhe.png">
+
+  <!-- Favicons -->
+  <link rel="shortcut icon" href="https://cdn.abranhe.com/abraham/abraham.ico">
+  <link rel="apple-touch-icon" href="https://cdn.abranhe.com/abraham/abraham-128.png">
+  <link rel="icon" href="https://cdn.abranhe.com/abraham/abraham-32.png" sizes="32x32">
+  <link rel="shortcut icon" sizes="196x196" href="https://cdn.abranhe.com/abraham/abraham-256.png">
+  <link rel="icon" type="image/png" href="https://cdn.abranhe.com/abraham/abraham-256.png" sizes="196x196" />
+  <link rel="icon" type="image/png" href="https://cdn.abranhe.com/abraham/abraham-128.png" sizes="96x96" />
+  <link rel="icon" type="image/png" href="https://cdn.abranhe.com/abraham/abraham-32.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="https://cdn.abranhe.com/abraham/abraham-32.png" sizes="16x16" />
+  <link rel="icon" type="image/png" href="https://cdn.abranhe.com/abraham/abraham-128.png" sizes="128x128" />
+  <link rel="mask-icon" href="https://cdn.abranhe.com/abraham/abraham.svg">
+
+  <link rel="shortcut icon" href="https://cdn.abranhe.com/abraham/abraham.png"/>
+  <link rel="author" href="https://abranhe.com"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.css">
+  <script type="module" src="/index.js"></script>
+  <style>
+  * {
+    font-family: monospace;
+    font-size: 24px;
+  }
+</style>
 </head>
+<body>
+  <section class="section">
+    <div class="container has-text-centered">
+      <p><img src="https://cdn.abranhe.com/projects/projects.png" style="width:300px;height:300px;" alt="logo"/></p>
+      <p>
+        Compilation of <strong>Abranhe</strong>'s shi..ty 💩 projects.
+        <br>See'em on <a href="https://github.com/abranhe">Github</a>.
+      </p>
+      <a href="https://twitter.com/abranhe"><img src="https://img.shields.io/twitter/follow/abranhe.svg?style=social&label=Follow"/></a>
+      <a href="https://github.com/abranhe"><img src="https://img.shields.io/github/followers/abranhe.svg?style=social&label=Follow"/></a>
+    </div>
+  </section>
+  <section class="section">
+    <div id="projects" class="hero-body container">
+    <div class="columns is-vcentered ">
+      <div id="latest-repos-container" class="column is-offset-1 has-nice-link is-one-quarter-fullhd">
+        <h2 class="title is-2">Latest repos</h2>
+        <template id="latest-repos-template">
+          <div class="column is-half">
+            <h4 class="title is-4">
+              <a class="latest-repos-title" href=""></a>
+              <span class="tag is-small latest-repos-language">pure blah blah blah</span>
+            </h4>
+            <p class="latest-repos-description"></p>
+          </div>
+        </template>
+        <div id="latest-repos" class="columns is-multiline"></div>
+      </div>
+    </div>
+  </div>
+</section>
+</body>
 </html>
