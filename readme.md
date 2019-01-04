@@ -1,9 +1,9 @@
-<div align="center">
+<div align="left">
 	<br>
 	<h2>
 	<a href="https://abranhe.com">abranhe.com</a>
 	</h2>
-	<p>my 💩 personal website</p>
+	<p>Abraham's personal website</p>
   <br>
 	<a href="https://github.com/abranhe"><img src="https://abranhe.com/badge.svg"></a>
 	<a href="https://cash.me/$abranhe"><img src="https://cdn.abranhe.com/badges/cash-me.svg"></a>
