@@ -1,11 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
 html {
   font-size: 10px;
-  background: url(https://cdn.abranhe.com/places/new-york/1.jpeg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  font-family: 'Roboto', sans-serif;
 }
+
 body, html {
     padding: 10;
     margin: 10;
