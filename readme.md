@@ -1,15 +1,10 @@
 <div align="left">
 	<br>
 	<h2>
-	<a href="https://2018.archived.abranhe.com/">abranhe.com</a>
+	<a href="https://abranhe.com/">abranhe.com</a>
 	</h2>
-	<p>Archived Abraham's personal website from 2018.</p>
+	<p>Abraham's personal website.</p>
   <br>
-	<a href="https://github.com/abranhe"><img src="https://abranhe.com/badge.svg"></a>
-	<a href="https://cash.me/$abranhe"><img src="https://cdn.abranhe.com/badges/cash-me.svg"></a>
-	<a href="https://paypal.me/abranhe/10"><img src="https://cdn.abranhe.com/badges/paypal.svg"></a>
-	<a href="https://patreon.com/abranhe"><img src="https://cdn.abranhe.com/badges/patreon.svg" /></a>
-	<br>
 	<br>
 	<img src="https://cdn.abranhe.com/projects/abranhe.com/shot.png">
 </div>
@@ -17,12 +12,6 @@
 ## Related
 
 - [feedback](https://github.com/abranhe/feedback):  little website to hear y'all opinions
-
-## Team
-
-|[![Carlos Abraham Logo](https://avatars3.githubusercontent.com/u/21347264?s=50)](https://abranhe.com)|
-| :-: |
-| [Carlos Abraham](https://github.com/abranhe) |
 
 
 ## License
