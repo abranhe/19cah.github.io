@@ -2,13 +2,14 @@
     "version": 2,
     "cleanUrls": true,
     "trailingSlash": false,
-    "routes": [
+    "redirects": [
         {
-            "src": "/resume",
-            "status": 301,
-            "headers": {
-                "Location": "https://docs.google.com/document/d/1tcOYBwDP7dnmK4hn4uWWdSRfhVr6NQhPVQ93CA5r-EM/preview"
-            }
+            "source": "/resume",
+            "destination": "https://docs.google.com/document/d/1tcOYBwDP7dnmK4hn4uWWdSRfhVr6NQhPVQ93CA5r-EM/preview"
+        },
+        {
+            "source": "/resume",
+            "destination": "/resume.pdf"
         }
     ]
 }
