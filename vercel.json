@@ -10,15 +10,5 @@
                 "Location": "https://docs.google.com/document/d/1tcOYBwDP7dnmK4hn4uWWdSRfhVr6NQhPVQ93CA5r-EM/preview"
             }
         }
-    ],
-    "redirects": [
-        {
-            "source": "/",
-            "destination": "/index.html"
-        },
-        {
-            "source": "/resume",
-            "destination": "/resume.pdf"
-        }
     ]
 }
