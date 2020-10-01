@@ -1,0 +1,10 @@
+node_modules
+build
+out
+.DS_Store
+.next
+.env.*
+.mdx-data
+.vercel
+*.log
+*.lock
