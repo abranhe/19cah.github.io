@@ -29,11 +29,6 @@ const Config = {
         'http://instagram.com/abranhe',
         'http://linkedin.com/in/abranhe'
       ]
-    },
-    twitter: {
-      handle: '@abranhe',
-      site: '@abranhe',
-      cardType: 'summary_large_image'
     }
   }
 };
