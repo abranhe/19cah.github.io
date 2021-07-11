@@ -9,11 +9,6 @@
 	<img src="https://cdn.abranhe.com/projects/abranhe.com/shot.png">
 </div>
 
-## Related
-
-- [feedback](https://github.com/abranhe/feedback):  little website to hear y'all opinions
-
-
 ## License
 
 [MIT](https://github.com/abranhe/abranhe.com/blob/master/license) License © [Carlos Abraham](https://github.com/abranhe)

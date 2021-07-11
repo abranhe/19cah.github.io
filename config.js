@@ -1,8 +1,10 @@
-const title = 'Abraham Hernandez – Developer, Photographer on the weekends.';
-const description =
+export const title =
+  'Abraham Hernandez – Developer, Photographer on the weekends.';
+
+export const description =
   'Developer, Open Sourcerer, Computer Scientist and Photographer.';
 
-const Config = {
+export default {
   seo: {
     title,
     description,
@@ -13,24 +15,22 @@ const Config = {
         firstName: 'Abraham',
         lastName: 'Hernandez',
         username: 'abranhe',
-        gender: 'Male'
+        gender: 'Male',
       },
       images: [
         {
           url: 'https://cdn.abranhe.com/abraham/@abranhe.png',
           alt: title,
           width: 1280,
-          height: 720
-        }
+          height: 720,
+        },
       ],
       sameAs: [
         'http://facebook.com/abranhe',
         'http://twitter.com/abranhe',
         'http://instagram.com/abranhe',
-        'http://linkedin.com/in/abranhe'
-      ]
-    }
-  }
+        'http://linkedin.com/in/abranhe',
+      ],
+    },
+  },
 };
-
-export default Config;

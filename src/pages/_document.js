@@ -1,50 +1,43 @@
 import React from 'react';
 import Document, { Html, Head, Main, NextScript } from 'next/document';
-import GoogleFonts from 'next-google-fonts';
-import { GA_TRACKING_ID } from '../lib/gtag';
+import { GA_TRACKING_ID } from '@/lib/gtag';
 
-class MyDocument extends Document {
+export default class Doc extends Document {
   render() {
     return (
       <Html lang="en">
-        <GoogleFonts href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" />
         <Head>
           <link
-            rel="stylesheet"
-            href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
-          />
-          <link href="/static/favicons/favicon.ico" rel="shortcut icon" />
-          <link
-            rel="preconnect"
-            href="https://fonts.gstatic.com/"
-            crossOrigin=""
+            rel="icon"
+            href="/static/favicons/favicon.ico"
+            type="image/ico"
           />
           <link
-            rel="preconnect"
-            href="https://use.fontawesome.com/"
-            crossOrigin=""
+            rel="shortcut icon"
+            href="/static/favicons/favicon.ico"
+            type="image/x-icon"
           />
           <link
-            href="/static/favicons/favicon-180x180.png"
             rel="apple-touch-icon"
+            href="/static/favicons/favicon-180x180.png"
             sizes="180x180"
           />
           <link
-            href="/static/favicons/favicon-32x32.png"
             rel="icon"
+            href="/static/favicons/favicon-32x32.png"
             sizes="32x32"
             type="image/png"
           />
           <link
-            href="/static/favicons/favicon-16x16.png"
             rel="icon"
+            href="/static/favicons/favicon-16x16.png"
             sizes="16x16"
             type="image/png"
           />
           <link
+            rel="mask-icon"
             color="#4a9885"
             href="/static/favicons/safari.svg"
-            rel="mask-icon"
           />
           <script
             async
@@ -60,7 +53,7 @@ class MyDocument extends Document {
             gtag('config', '${GA_TRACKING_ID}', {
               page_path: window.location.pathname,
             });
-          `
+          `,
             }}
           />
         </Head>
@@ -72,5 +65,3 @@ class MyDocument extends Document {
     );
   }
 }
-
-export default MyDocument;

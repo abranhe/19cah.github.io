@@ -1,37 +1,29 @@
 {
-    "name": "abranhe.com",
-    "version": "1.0.0",
-    "description": "Abraham's personal site.",
-    "repository": "abranhe/abranhe.com",
-    "license": "MIT",
-    "author": {
-        "name": "Abraham Hernandez",
-        "email": "abraham@abranhe.com",
-        "url": "https://abranhe.com"
-    },
-    "scripts": {
-        "dev": "next",
-        "build": "next build",
-        "start": "next start"
-    },
-    "dependencies": {
-        "@chakra-ui/core": "^0.8.0",
-        "@emotion/core": "^10.0.35",
-        "@emotion/styled": "^10.0.27",
-        "next": "latest",
-        "next-google-fonts": "^1.2.1",
-        "next-seo": "^4.10.0",
-        "react": "^16.8.6",
-        "react-dom": "^16.8.6",
-        "swr": "0.1.18"
-    },
-    "devDependencies": {
-        "prettier": "^2.1.2"
-    },
-    "prettier": {
-        "arrowParens": "always",
-        "singleQuote": true,
-        "tabWidth": 2,
-        "trailingComma": "none"
-    }
+  "name": "abranhe.com",
+  "version": "2.0.0",
+  "description": "Abraham's personal site.",
+  "private": true,
+  "license": "MIT",
+  "author": {
+    "name": "Abraham Hernandez",
+    "email": "abraham@abranhe.com",
+    "url": "https://abranhe.com"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "latest",
+    "next-seo": "^4.26.0",
+    "next-themes": "^0.0.15",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.2.6",
+    "postcss": "^8.3.5",
+    "tailwindcss": "^2.2.4"
+  }
 }
