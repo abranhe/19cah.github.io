@@ -81,7 +81,7 @@ export default function Home() {
           <h3 className="text-gray-600 sm:p-4 dark:text-gray-400">
             Fullstack Developer building software mostly with Javascript & React
             Native. <br className="hidden md:block" />
-            Taking blurry pictures in my free time. #stopstopping
+            Taking blurry pictures in my free time.
           </h3>
         </div>
 
